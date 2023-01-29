@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/uss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Loginn"
+            android:layout_marginTop="25dp"
+            android:background="#ffff"
+            android:drawableStart="@drawable/username"
+            android:drawablePadding="24dp"
+            android:hint="Username" />
+
+        <TextView
+            android:id="@+id/Loginn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/pss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/uss"
+            android:layout_marginTop="25dp"
+            android:drawableStart="@drawable/pass"
+            android:drawablePadding="24dp"
+            android:background="#ffff"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pss"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cusbut"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tamser"
+        android:title="Data Sevice"
+        android:icon="@drawable/dataserv"
+        android:enabled="true" />
+    <item
+        android:id="@+id/tampen"
+        android:title="Data Pengantaran"
+        android:icon="@drawable/dataantar"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/keluar"
+        android:title="Log Out"
+        android:icon="@drawable/logout"
+        android:enabled="true"/>
+</menu>
