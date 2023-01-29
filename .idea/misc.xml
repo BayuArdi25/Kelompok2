@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/drawable/cusbut.xml" value="0.123" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/drawable/ic_baseline_miscellaneous_services_24.xml" value="0.107" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.181" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/drawable/ic_launcher_background.xml" value="0.181" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.181" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/drawable/vec.xml" value="0.195" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/layout/activity_awalan.xml" value="0.2234375" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/layout/activity_pengantaran.xml" value="0.22" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/layout/viewdata.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/layout/viewdata2.xml" value="0.2234375" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/menu/searchmenu.xml" value="0.2234375" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/xml/netsecure.xml" value="0.2234375" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/xml/network_secur.xml" value="0.2234375" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/xml/network_security_config.xml" value="0.2234375" />
+        <entry key="..\:/Users/LENOVO/Videos/AppsService/app/src/main/res/xml/networksecure.xml" value="0.2234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

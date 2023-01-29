@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Pengantaran">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ISI DATA DIRI"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:shadowColor="#40000000"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:fontFamily="sans-serif-black"
+        android:lineHeight="40sp"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/editnik"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:drawablePadding="10dp"
+        android:background="#FFFF"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/nik" />
+
+    <EditText
+        android:id="@+id/editnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/namaa" />
+
+
+    <EditText
+        android:id="@+id/editid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="halo"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:enabled="false"
+        android:textColor="@color/black"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/servii"/>
+
+    <EditText
+        android:id="@+id/editalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/addres" />
+
+    <EditText
+        android:id="@+id/editnohp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No HP"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:background="#FFFF"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/calll"
+        android:inputType="phone"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/exi"
+            android:textColor="@color/black"
+            android:background="@drawable/cusbut"
+            android:text="BATAL"
+            android:layout_marginLeft="75dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/svv"
+            android:text="SAVE"
+            android:textColor="@color/black"
+            android:background="@drawable/cusbut"
+            android:layout_marginLeft="70dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
